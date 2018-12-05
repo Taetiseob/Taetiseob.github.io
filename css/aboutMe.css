@@ -108,10 +108,10 @@
 }.skill{
     display:flex;
     flex-flow:column nowrap;
-    height:10vh;
+    height:15vh;
     justify-content: space-around;
 }.skill p{
-    padding:10px;
+    padding:3%;
 }.line{
     border-bottom:1px solid #cecece;
 }label{
@@ -228,9 +228,10 @@
     justify-content: space-around;
     margin-left:3%;
 }.skill p{
-    padding:25px 0 25px 0;
-}.line{
+    padding:0 3 0 0;
     border-bottom:1px solid #cecece;
+}.line{
+    
 }label{
     font-size:8px;
 }
