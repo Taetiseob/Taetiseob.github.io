@@ -1,0 +1,291 @@
+@charset utf-8;
+*{
+    margin:0; padding:0;
+}
+body{
+    background-color:#fcfbfb;
+}
+
+
+@media all and (min-width:768px)
+{
+    .wrap{
+        display:flex;
+        flex-flow:column nowrap;
+        justify-content: center;
+    }
+    .Logo{
+        display:flex;
+        justify-content: center;
+    }
+    /*mobile clocking*/
+    .nav_top_box{
+        display:none;
+    }
+    .fake_nav{
+        display:none;
+    }
+    /*mobile Clocking End*/
+    
+    /*mobile navigator*/
+    nav{
+        display:flex;
+        flex-flow:row nowrap;
+        justify-content: space-around;
+    }
+
+    .real_nav li{
+        display:inline-block;
+        margin:10px 3px;
+        
+        
+    }
+    .real_nav li a{
+        text-decoration: none;
+        color: #4f4949;
+        
+    }
+    /*mobile navigator End*/
+    
+    /*
+    
+    section
+    
+    */
+    section{
+        display: flex;
+        flex-flow:column nowrap;
+        margin-top:30px;
+        
+    }
+    /*section .ConName*/
+    .ConName{
+        display: flex;
+        flex-flow:column;
+    }
+    .ConName{
+        font-size:18px;
+        font-weight: 600;
+    }
+    .ConName a{
+        text-align: center;
+    }
+    .ConName img{
+        margin-top:5vh;
+        width:20px;
+        margin-bottom:5vh;
+    }
+    /*section .ConName End*/
+    
+    /*section My*/
+    .my{
+        display:flex;
+        flex-flow:row nowrap;
+        justify-content: center;
+        margin-bottom:150px;
+        
+    }
+    
+    /*my_photo*/
+    .my_photo{
+        
+        display:flex;
+        flex-flow:row nowrap;
+        background-image: url("../img/my_photo.png");
+        background-position: center bottom;
+        background-size: cover;
+        max-width:350px;
+        min-width:350px;
+        height:35vh;
+        }
+    }
+    /*my_photo_End*/
+    /*my_contents*/
+    .my_contents{
+        display:flex;
+        flex-flow:column nowrap;
+        max-width:585px;
+        min-width:585px;
+        justify-content: space-around;
+        border:1px solid #cecece;
+    }
+    .my_contents h1
+    {
+        padding-left:20px;
+        font-size:26px;
+        font-weight: 600;
+    }
+.first_li{
+    width:81%;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: space-around;
+}
+
+.first_li li{
+    font-size:8px;
+    padding-bottom:5px;
+    border-bottom:2px solid black;
+}
+.second_li{
+    font-size:8px;
+    padding-top:3px;
+    width:73%;
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: space-around;
+}
+.my_contents p{
+    padding-left:20px;
+    font-size:8px;
+    line-height: 2.5;
+}
+    /*my contents End*/
+    .about
+    {
+    letter-spacing: 5px;
+    }
+/*my_skill start*/
+.mySkill{
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content: center;
+
+}
+.img_skill{
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: center;
+}
+/*img_skill right_side*/
+.skill{
+    display: flex;
+    flex-flow:column nowrap;
+    justify-content: center;
+    line-height: 50px;
+    max-width:500px;
+    min-width:580px;
+}
+.skill p{
+    border-bottom:1px solid #edecec;
+
+}
+/*myskill_imgs*/
+.myskill_imgs{
+    margin-top:100px;
+    height:34vh;
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content: space-around;
+}
+.myskill_img_one{
+    display:flex;
+    justify-content: space-around;
+    margin:0 auto;
+    width:85%;
+    max-width:90%;
+}
+
+.myskill_img_one img{
+    width:150px;
+    height:150px;=
+}
+/*two*/
+
+.myskill_img_two{
+    display:flex;
+    justify-content: space-around;
+    margin:0 auto;
+    width:85%;
+    max-width:90%;
+}
+
+.myskill_img_two img{
+    width:150px;
+    height:150px;
+}
+/*my_skill end*/
+    
+/*
+    
+    section_End
+    
+*/
+.load{
+    width:20%;
+    cursor:pointer;
+    margin:50px auto;
+    display:flex;
+    flex-flow:column;
+    align-items:center;
+}
+.load img{
+width:25px;
+}
+    
+    
+footer{
+    display: flex;
+    flex-flow :column nowrap;
+    align-items:center;
+    justify-content: center;
+    background-color:#222222;
+    height:20vh;
+    border-radius: 15px;
+    margin-top:100px;
+}
+
+.footer_btn_container{
+    display: flex;
+    margin-bottom:35px;
+}
+
+.bottom img{
+    width:40px;
+    height:40px;
+}
+.resume{
+    display: flex;
+    flex-flow:column wrap;
+    background-color:#cdcdcd;
+    width:135px;
+    height:45px;
+    border-radius: 10px;
+    justify-content: center;
+    align-content:space-around;
+    font-size:12px;
+}
+.disk{
+    
+    display:flex;
+    flex-flow:column wrap;
+    background-color:#4470a5;
+    width:135px;
+    height:45px;
+    border-radius: 10px;
+    justify-content: center;
+    align-content:space-around;
+    font-size:12px;
+}
+.bottom p:last-child{
+    color:#fff;
+}
+
+/*Footer End*/
+}
+
+
+
+
+/*모바일*/
+
+
+/*모바일 끝*/
+@media all and (min-width:768px)
+{
+
+}
+@media all and (min-width:968)
+{
+
+}

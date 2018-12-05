@@ -1,0 +1,121 @@
+@charset utf-8;
+.window1{
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    height:100vh;
+    
+}.ConName h3{
+    font-weight:bold;
+}
+.main_contents1{
+    background-image:url('../img/chicago_in.jpg');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    height:100vh;
+    display: flex;
+    flex-flow :column nowrap;
+    width:90%;
+    align-items:center;
+}.photo_section{
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items:center;
+    width:100%;
+    height:75vh;
+    overflow: hidden;
+}.photo_section>ul{
+    display:flex;
+    width:70%;
+    justify-content: space-around;
+    border-bottom:2px solid #b1b1b1;/*b1b1b1*/
+    padding-bottom:20px;
+}.photo_section>ul li a{
+    font-size: 12px;
+    font-weight:600;
+}.photo_block{
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: space-around;
+    align-items:center;
+    background-color:#eeeeee;
+    width:100%;
+    height:70vh;
+}.slide_photo_wrap{
+    width:100;
+    height:75vh;
+    position:flex;
+    top:0;left:0;font-size:0;
+}.slide_photo_wrap li{
+    width:100%;
+    display: inline-block;
+    overflow: hidden;
+}.slide_photo_wrap div:first-child{
+    width:100%;
+}.slide_photo_wrap div:nth-child(2){
+    width:100%;
+    
+}.block_left{
+    width:25%;
+    height:60vh;
+    background-image: url("../img/web/human_pc.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}.center_gruop{
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content: space-between;
+    height:60vh;
+    width:45%;
+}.center_first{
+    height:30vh;
+    width:100%;
+    background-image: url("../img/shoppingmall/%EC%87%BC%ED%95%91%EB%AA%B0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}.center_second{
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    height: 25vh;
+    width:100%;
+    
+}.center_second div:first-child{
+    background-image: url("../img/web/pic_1.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width:48%;
+}.center_second div:nth-child(2){
+    background-color: aliceblue;
+    background-size:cover;
+    background-position:center;
+    width:48%;
+}
+.block_right{
+    width:22%;
+    height:60vh;
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    background-position:center;
+}.block_right div:first-child{
+    background-image:url("../img/mobile/marketing.jpg");
+    background-size:contain;
+    width:100%;
+    height:30vh;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-color:white;
+}.block_right div:nth-child(2){
+    background-color:aliceblue;
+    width:100%;
+    height:25vh;
+}
+

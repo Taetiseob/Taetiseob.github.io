@@ -1,0 +1,236 @@
+@charset utf-8;
+*{
+    margin:0; padding:0;
+}
+body{
+    background-color:#fcfbfb;
+}
+/*모바일*/
+
+#wrap{
+    width:100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin:0 auto;
+}
+
+@media all and (max-width:400px){
+
+    .Logo{
+        
+        display: flex;
+        flex-flow:column nowrap;
+        justify-content: center;
+        
+        }
+
+}
+.Logo {
+        display: flex;
+        justify-content: center;
+        margin-bottom:30px;
+        flex-flow:column nowrap;
+}
+
+nav{
+    
+    display: flex;
+    justify-content: center;
+}
+@media all and (max-width:768px){
+    .button{
+        display: none;
+    }
+    nav p{
+    display:none;
+}
+}
+
+nav ul{
+    margin-bottom:20px;
+    
+}
+.real_nav{
+    display:flex;
+    justify-content: flex-end;
+    
+}
+.real_nav li{
+    display: inline-block;
+    margin:3px;
+    margin: auto 3px;
+
+}
+.cls{
+    border-right:1px solid #222;
+    padding-right:5px;
+}
+nav a{
+    text-decoration:none;
+    color: #4f4949;
+}
+
+@media all and (max-width:768px){
+        .fake_nav{
+        display:none;
+    }
+
+}
+
+nav a{
+    text-decoration: none;
+    color:#4f4949;
+}
+/*bottom_side*/
+.bottom_side{
+    display: flex;
+    flex-flow:column nowrap;
+    justify-content: center;
+}
+/*화살표*/
+.load{
+    
+    padding-top:15px;
+    display: flex;
+    flex-flow:column nowrap;
+    align-items: center;
+}
+/*footer*/
+footer{
+    
+    display: flex;
+    flex-flow :column nowrap;
+    align-items:center;
+    justify-content: center;
+    background-color:#222222;
+    height:20vh;
+    border-radius: 15px;
+    margin-top:100px;
+    
+}
+.footer_btn_container{
+    display: flex;
+    margin-bottom:35px;
+}
+
+.bottom img{
+    width:40px;
+    height:40px;
+}
+.resume{
+    display: flex;
+    flex-flow:column wrap;
+    background-color:#cdcdcd;
+    width:135px;
+    height:45px;
+    border-radius: 10px;
+    justify-content: center;
+    align-content:space-around;
+    font-size:12px;
+}
+.disk{
+    
+    display:flex;
+    flex-flow:column wrap;
+    background-color:#4470a5;
+    width:135px;
+    height:45px;
+    border-radius: 10px;
+    justify-content: center;
+    align-content:space-around;
+    font-size:12px;
+}
+.bottom p:last-child{
+    color:#fff;
+}
+.main_contents img{
+    width:100vw;
+    
+}
+.main_contents img:hover{
+    opacity: 0.2;
+    
+}
+/*모바일 끝*/
+/*패드+PC*/
+@media all and (min-width:767px) {
+    #wrap{
+        
+        width:100%;
+        display: flex;
+        flex-flow:column nowrap;
+        justify-content: center;
+    }
+    /*container upper*/
+    .Logo {
+        display:flex;
+        justify-content: flex-start;
+        width:300px;
+        max-width:200px;
+    }
+    .Logo img{
+        max-width:200px;
+    }
+    .upper{
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    /*가로 3단*/
+    header{
+        order:3;
+    }
+    nav{
+        display:flex;
+        flex-flow:column nowrap;
+    }
+    .nav_top_box{
+        display:flex;
+        flex-flow:row nowrap;
+        align-items:center;
+        height:100px;
+    }
+    .button{
+        cursor: pointer;
+        height:50px;
+        width:50px;
+        background-image: url("../img/Sub_ABOUT_03.png");
+        border:1px solid #2d2d2d;
+        background-size: cover;
+    } 
+
+    .real_nav{
+        display:none;
+    }
+    .fake_nav{
+        flex:2;
+        
+    }
+    .fake_nav li{
+        border-bottom:1px solid #4f4949;
+        padding:15px;
+        margin: 0 auto;
+    }
+
+    /*가로 2단*/
+    .main_contents{
+        margin:0 auto;
+        display: flex;
+        flex-flow:row wrap;
+        width:75%;
+        justify-content: space-around;
+        align-items:center;
+    }
+    .main_contents ul li{
+       margin-bottom:20%;
+    }
+    .main_contents img{
+        width:310px;
+        height:310px;
+    }
+    .sec2{
+        margin-top:120px;
+    }
+    /*푸터*/
+
+    

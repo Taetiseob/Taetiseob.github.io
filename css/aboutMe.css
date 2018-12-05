@@ -1,0 +1,239 @@
+@charset utf-8;
+    .main_contents{
+    
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height:100vh;
+}.ConName{
+    display: flex;
+    flex-flow:column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height:10vh;
+}.ConName img{
+    width:18px;
+    height:18px;
+}.ConName h3{
+    font-weight: 600;
+}
+.my{
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height:60vh;
+}.my_photo{
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content: flex-end;
+    background-position: center bottom;
+    background-size: contain;
+    
+}.my_photo img{
+    width:250px;
+    height:250px;
+}.my_contents{
+    border:1px solid #cecece;
+    width:58%;
+    min-width:320px;
+    padding:2% 2%;
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content: space-around;
+    height:56vh;
+}
+.my_contents h1{
+    font-size:23px;
+    font-weight: 600;
+}
+.my_contents>p{
+    font-size:0.5rem;
+    line-height: 1.9;
+    min-width:320px;
+}.sinsang{
+    height:10vh;
+    display:flex;
+    flex-flow : row nowrap;
+    width:75%;
+    min-width:35%;
+    justify-content: space-around;   
+}
+.first_li{
+    border-bottom:1px solid #4c4c4c;
+    font-weight:bold;
+    
+}.sinsang ul{
+    width:31%;
+}.sinsang li{
+    margin:2px 0;
+    font-size:8px;
+}.Git_button{
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: center;
+    align-items:center;
+    background-color:#1ebc9b;
+    width:120px;
+    min-width:120px;
+    height:35px;
+    min-height:35px;
+    border-radius: 6px;
+}.Git_button a{
+    font-size:10px;
+    font-weight: bold;
+    text-decoration: none;
+    color:white;
+}.Git_button img{
+    margin-top:1px;
+    height:10px;
+    width:11px;
+}.mySkill{
+    font-size:12px;
+    display:flex;
+    flex-flow:column nowrap;
+    width:80%;
+    height:45vh;
+    justify-content: space-around;
+}.codeAlone{
+    display:flex;
+    align-items: center;
+    flex-flow:column nowrap;
+}.codeAlone img{
+    width:200px;
+    height:60px;
+    
+}.skill{
+    display:flex;
+    flex-flow:column nowrap;
+    height:10vh;
+    justify-content: space-around;
+}.skill p{
+    padding:10px;
+}.line{
+    border-bottom:1px solid #cecece;
+}label{
+    font-size:8px;
+}
+
+
+@media all and (min-width:1280px) {
+    .main_contents{
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height:100vh;
+}.ConName{
+    display: flex;
+    flex-flow:column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height:10vh;
+}.ConName img{
+    width:23px;
+    height:23px;
+}.my{
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: center;
+    align-items: center;
+    height:55vh;
+    width:70%;
+}.my_photo{
+    display:flex;
+    width:42%;
+    flex-flow:column nowrap;
+    justify-content: center;
+    background-position: center bottom;
+    background-size: contain;
+    
+}.my_photo img{
+    width:100%;
+    height:100%;
+}.my_contents{
+    border:1px solid #cecece;
+    width:58%;
+    padding:2% 2%;
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content: space-around;
+    height:50vh;
+}
+.my_contents h1{
+    font-size:23px;
+    font-weight: 600;
+}
+.my_contents>p{
+    font-size:8px;
+    line-height: 2.5;
+    max-width:550px;
+}.sinsang{
+    height:10vh;
+    display:flex;
+    flex-flow : row nowrap;
+    width:55%;
+    justify-content: space-around;   
+}
+.first_li{
+    border-bottom:1px solid #4c4c4c;
+    font-weight:bold;
+    
+}.sinsang ul{
+    width:31%;
+}.sinsang li{
+    margin:2px 0;
+    font-size:8px;
+}.Git_button{
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: center;
+    align-items:center;
+    background-color:#1ebc9b;
+    width:120px;
+    height:35px;
+    border-radius: 6px;
+}.Git_button a{
+    font-size:10px;
+    font-weight: bold;
+    text-decoration: none;
+    color:white;
+}.Git_button img{
+    margin-top:1px;
+    height:10px;
+    width:11px;
+}.mySkill{
+    font-size:12px;
+    display:flex;
+    flex-flow:row nowrap;
+    width:70%;
+    height:30vh;
+    justify-content: space-between;
+}.codeAlone{
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: center;
+    align-items: center;
+    width:40%;
+}.codeAlone img{
+    width:200px;
+    height:60px;
+}.skill{
+    width:100%;
+    display:flex;
+    flex-flow:column nowrap;
+    height:30vh;
+    justify-content: space-around;
+    margin-left:3%;
+}.skill p{
+    padding:25px 0 25px 0;
+}.line{
+    border-bottom:1px solid #cecece;
+}label{
+    font-size:8px;
+}
+
+    
+}

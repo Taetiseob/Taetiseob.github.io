@@ -1,0 +1,133 @@
+@charset utf-8;
+.window4{
+    width:100%;
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content: space-around;
+    align-items:center;
+    height:100vh;
+
+}
+.window4 p{
+    font-size:16px;
+}.window4 span{
+    font-size:12px;
+}
+.top_section{
+    display:flex;
+    justify-content: space-around;
+    flex-flow:column nowrap;
+    align-items:center;
+    width:100%;
+    height:30vh;
+}.top_section>h1{
+    font-size:20px;
+    font-weight:bold;
+}.top_section>p{
+    font-size:12px;
+    text-align:center;
+    line-height:27px;
+}.top_section>ul{
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    width:40%;
+    
+}#htitle{
+    border-top:1px solid #cecece;
+    padding-top: 40px;
+    font-size:14px;
+    font-weight:bold;
+    color:#585858;
+}
+.bottom_section{
+    height:30vh;
+    width:100%;
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-content: center;
+}.form_container{
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+}
+.form_list{
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content: space-around;
+    height:26vh;
+    
+}.form_list input{
+    margin:0 25px 0 0;
+    padding:10px 0;
+}
+
+@media all and (min-width:1280px) {
+    .window4{
+    width:100%;
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content: space-around;
+    align-items:center;
+    height:100vh;
+}.window4 p{
+    font-size:16px;
+}.window4 span{
+    font-size:12px;
+}
+.top_section{
+    display:flex;
+    justify-content: space-around;
+    flex-flow:column nowrap;
+    align-items:center;
+    width:100%;
+    height:30vh;
+}.top_section>h1{
+    font-size:20px;
+    font-weight:bold;
+}.top_section>p{
+    font-size:12px;
+    text-align:center;
+    line-height:27px;
+}.top_section>ul{
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    width:40%;
+    
+}#htitle{
+    border-top:1px solid #cecece;
+    padding-top: 40px;
+    font-size:14px;
+    font-weight:bold;
+    color:#585858;
+}
+.bottom_section{
+    height:30vh;
+    width:100%;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-content: center;
+}.form_container{
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+}
+.form_list{
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content: space-around;
+    height:26vh;
+    
+}.form_list input{
+    margin:0 25px 0 0;
+    padding:10px 0;
+}
+    
+}

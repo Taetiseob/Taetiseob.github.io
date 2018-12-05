@@ -1,0 +1,56 @@
+@media all and (max-width:380px) {
+    header{display:none;}
+
+}
+@media all and (max-width:1280px) {
+    *{
+
+        margin:0 auto; padding:0;
+    }
+
+    header{
+        display:none;
+    }
+    .logo{
+        display:none;
+    }.main_contents1{
+        width:100%;
+    }
+    .jbFixed{
+       display: none;
+    }.section_fake{
+        width:100%;
+        margin:0;
+        display:flex;
+        flex-flow:column nowrap;
+        justify-content: space-around;
+        height:100vh;
+        margin-right:0px;
+        
+    }
+    /*window3*/
+    *{
+        font-size:7px;
+    }
+    .window1 {
+        margin:0;
+    }.slider_wrap li{
+    }.slider_wrap{
+    }
+    .window3 section{
+        margin:0;
+        height:inherit;
+    }.my img{
+        display:none;
+    }.window4{
+        height:100vh;
+    }.top_section{
+        height:70vh;
+    }.my_contents h1{
+        font-size:20px;
+    }/*Ux/Ui Designer*/
+    .ConName {
+        width:100%;
+    }
+
+}
