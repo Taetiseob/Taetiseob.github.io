@@ -43,7 +43,7 @@
     display:flex;
     flex-flow:column nowrap;
     justify-content: space-around;
-    height:56vh;
+    height:46vh;
 }
 .my_contents h1{
     font-size:23px;
@@ -160,7 +160,7 @@
     display:flex;
     flex-flow:column nowrap;
     justify-content: space-around;
-    height:50vh;
+    height:40vh;
 }
 .my_contents h1{
     font-size:23px;
@@ -224,7 +224,7 @@
     width:100%;
     display:flex;
     flex-flow:column nowrap;
-    height:30vh;
+    height:25vh;
     justify-content: space-around;
     margin-left:3%;
 }.skill p{

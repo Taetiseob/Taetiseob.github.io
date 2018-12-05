@@ -243,9 +243,9 @@ div.top{
     }
     
 body>div{width: 100%; height: 100vh;}
-      .window1{background-color: #f5f5f5;}
+      .window1{background-color: #fcfbfb;}
         .window2{background-color: #f5f5f5;}
-      .window3{background-color: #fcfbfb;}
+      .window3{background-color: #f5f5f5;}
       .window4{background-color: #edebf3;}
 /*가생성 스타일*/
       .jbFixed {

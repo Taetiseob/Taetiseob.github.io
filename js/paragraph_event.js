@@ -14,7 +14,7 @@
 var btn_click = false;
 $(function(){
     
-    $(".main_right").on("click",fnClick);
+    $(".main_right").on("moseover focus",fnClick);
         function fnClick(){
         
         if(btn_click){
