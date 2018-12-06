@@ -7,7 +7,7 @@ body
     #Port_Wrap
     {
     margin:50px 0 0 auto;
-    width:70%;
+    width:75%;
     display:flex;
     flex-flow:row nowrap;
     align-items:space-around;
@@ -21,7 +21,7 @@ body
 .tile_athor{
     width:225px;
     height:225px;
-    margin:15px;
+    margin:18px;
     background-color:#436fa5;
     opacity:0.8;
     display:inline-block;
@@ -34,7 +34,7 @@ body
 }.tile_none{
     width:225px;
     height:225px;
-    margin:15px;
+    margin:18px;
     background:none;
     display:inline-block;
     background-size:contain;
@@ -54,7 +54,7 @@ body
     align-items:center;
     width:225px;
     height:225px;
-    margin:15px;
+    margin:18px;
     text-align: center;
     position:relative;
     overflow:hidden;
@@ -65,7 +65,7 @@ body
     {
     width:225px;
     height:225px;
-    margin:15px;
+    margin:18px;
     background-color:#284567;
     display:inline-block;
     background-size:contain;
