@@ -4,13 +4,25 @@ body
     {
       background-color:#eee
     }
+.window1{
+    width:100%;
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content: center;
+    align-content: center;
+}
     #Port_Wrap
     {
-    margin:50px 0 0 auto;
-    width:75%;
+    /*margin:50px 0 0 auto;*/
+    width:60%;
     display:flex;
     flex-flow:row nowrap;
     align-items:space-around;
+    justify-content: center;
+    
+}#Port_Wrap>ul{
+    width:20%;
+    text-align:center;
     
 }
 
@@ -19,8 +31,8 @@ body
     list-style: none;
 }
 .tile_athor{
-    width:225px;
-    height:225px;
+    width:180px;
+    height:180px;
     margin:18px;
     background-color:#436fa5;
     opacity:0.8;
@@ -31,19 +43,40 @@ body
     transition: all 0.4s ease-out;
     box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);
     overflow:hidden;
-}.tile_none{
-    width:225px;
-    height:225px;
+}.tile_athor1{
+    width:180px;
+    height:180px;
+    margin:18px;
+    background-color:#f6ad11;
+    opacity:0.8;
+    display:inline-block;
+    background-size:contain;
+    position:relative;
+    cursor:pointer;
+    transition: all 0.4s ease-out;
+    box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);
+    overflow:hidden;
+}
+
+.tile_none{
+    width:180px;
+    height:180px;
     margin:18px;
     background:none;
     display:inline-block;
     background-size:contain;
-    position:relative;
+    
     /*cursor:pointer;*/
     transition: all 0.4s ease-out;
     /*box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);*/
     overflow:hidden;
-}.tile_center{
+}#cent{
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content: center;
+    align-items:center;
+}
+.tile_center{
     background-image: url(../img/code_alone.png);
     background-size:contain;
     background-repeat: no-repeat;
@@ -52,19 +85,17 @@ body
     flex-flow: column nowrap;
     justify-content: center;
     align-items:center;
-    width:225px;
-    height:225px;
+    width:180px;
+    height:180px;
     margin:18px;
-    text-align: center;
+    
     position:relative;
     overflow:hidden;
 }.tile_center h1{
     border-top:30px solid;
-}
-    .tile
-    {
-    width:225px;
-    height:225px;
+}.tile{
+    width:180px;
+    height:180px;
     margin:18px;
     background-color:#284567;
     display:inline-block;
@@ -76,8 +107,24 @@ body
     overflow:hidden;
     color:#fff;
     /*font-family:'sans-serif';*/
+    
+/*웹디자인 타일*/
+    }.tile1{
+    width:180px;
+    height:180px;
+    margin:18px;
+    background-color:#f6ad11;
+    display:inline-block;
+    background-size:contain;
+    position:relative;
+    cursor:pointer;
+    transition: all 0.4s ease-out;
+    box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);
+    overflow:hidden;
+    color:#fff;
+        /*font-family:'sans-serif';*/}
+/*웹디자인 타일*/
 
-    }
     .tile img
     {
     height:100%;
@@ -88,9 +135,26 @@ body
     z-index:0;
     transition: all 0.4s ease-out;
     }
+
+/*일반디자인 타일*/
+    .tile1 img
+    {
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:0;
+    transition: all 0.4s ease-out;
+    }
+/*일반디자인 타일*/
+
+
+/*일반디자인 타일*/
     .tile .text
     {
     /*   z-index:99; */
+        width:120px;
     position:absolute;
     padding:30px;
     height:calc(100% - 60px);
@@ -104,6 +168,7 @@ body
     }
     .tile h2 
     {
+        font-size:14px;
     font-weight:100;
     margin:20px 0 0 0;
     font-style:italic;
@@ -111,7 +176,7 @@ body
     }
     .tile p
     {
-        font-size:0.8rem;
+        font-size:0.7rem;
     font-weight:300;
     margin:20px 0 0 0;
     line-height: 20px;
@@ -119,6 +184,46 @@ body
     transform: translateX(-200px);
     transition-delay: 0.2s;
     }
+/*일반디자인 타일*/
+
+
+/*웹디자인 타일*/
+    .tile1 .text
+    {
+    /*   z-index:99; */
+    width:120px;
+    position:absolute;
+    padding:30px;
+    height:calc(100% - 60px);
+    height:calc(100% - 60px);
+    }
+    .tile1 h1
+    {
+    font-weight:300;
+    margin:0;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+    }
+    .tile1 h2 
+    {
+        font-size:14px;
+    font-weight:100;
+    margin:20px 0 0 0;
+    font-style:italic;
+    transform: translateX(200px);
+    }
+    .tile1 p
+    {
+        font-size:0.7rem;
+    font-weight:300;
+    margin:20px 0 0 0;
+    line-height: 20px;
+    /*   opacity:0; */
+    transform: translateX(-200px);
+    transition-delay: 0.2s;
+    }
+/*웹디자인 타일*/
+
+/*일반디자인 타일*/
     .animate-text
     {
     opacity:0;
@@ -139,6 +244,26 @@ body
     transform:translateX(0);
     opacity:1;
     }
+/*일반디자인 타일*/
+
+/*웹디자인 타일*/
+   .tile1:hover
+    {
+    /*   background-color:#99aeff; */
+    box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
+    transform:scale(1.05);
+    }
+    .tile1:hover img
+    {
+    opacity: 0.2;
+    }
+    .tile1:hover .animate-text
+    {
+    transform:translateX(0);
+    opacity:1;
+    }
+/*웹디자인 타일*/
+
     .dots
     {
     position:absolute;
@@ -192,11 +317,8 @@ body
     #Port_Wrap {
     flex-direction: column;
     width:100%;
-      }
-       #Port_Wrap
-    {
     margin:25px auto 0 auto;
-    width:100%;
+    
     display:flex;
     flex-flow:column nowrap;
     align-items:center;
