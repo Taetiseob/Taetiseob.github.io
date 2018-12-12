@@ -25,6 +25,7 @@ body{
     display:flex;
     flex-flow:column nowrap;
     justify-content: space-around;
+    width:30%;
     height:75vh;
 }.ConName div:nth-child(1){
     display:flex;
@@ -55,19 +56,32 @@ body{
     margin:5px;
     font-size:14px;
 }
-
+/*main_photo*/
+.main_photo{
+    width:100%;
+    display:flex;
+    flex-flow:row;
+    justify-content: center;
+    align-items: center;
+}.main_photo img{
+    width:85%;
+    height:90vh;
+}
+/*main_photo*/
 
 /*ConName Second*/
 .sec_con{
     display:flex;
     flex-flow:column nowrap;
     justify-content: space-around;
+    align-items:center;
     text-align: center;
     height:25vh;
     font-size:16px;
     font-weight:300;
 }.move{
     display:flex;
+    width:50%;
     flex-flow:column nowrap;
     justify-content: center;
     align-items: center;

@@ -113,7 +113,7 @@ body
     width:180px;
     height:180px;
     margin:18px;
-    background-color:#f6ad11;
+    background-color:#d7a726;
     display:inline-block;
     background-size:contain;
     position:relative;
@@ -168,8 +168,8 @@ body
     }
     .tile h2 
     {
-        font-size:14px;
-    font-weight:100;
+    font-size:14px;
+    font-weight:200;
     margin:20px 0 0 0;
     font-style:italic;
     transform: translateX(200px);

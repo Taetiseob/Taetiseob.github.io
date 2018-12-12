@@ -10,13 +10,15 @@
         <link rel="stylesheet" type="text/css" href="css/contact.css">
         <link rel="stylesheet" type="text/css" href="css/ba.css">
         <link rel="stylesheet" type="text/css" href="css/Portfolio.css">
+        <link rel="stylesheet" type="text/css" href="css/modal.css">
         <script src="js/jquery.js"></script>
         <script src="js/main_mouse_over.js"></script>
         <script src="js/paragraph_event.js"></script>
         <script src="js/para.js"></script>
         <script src="js/pull_page.js"></script>
         <script src="js/nav-fix.js"></script>
-        <script  src="js/return_top.js"></script>
+        <script src="js/return_top.js"></script>
+        <script src="js/modal.js"></script>
    
         <script type="text/javascript" src="js/div_slider.js"></script>
     </head>
@@ -85,12 +87,12 @@
             <section id="Port_Wrap">
             <!--1단-->
                 <ul id=container1>
-                    <li><a href="Sub_contents_Web1.html">
+                    <li id="mybtn"><a href="port_slider.html">
                         <div class="tile1"> 
-                        <img src="img/moblie_img.png">
+                        
                                 <div class="text">
                                     <h1>Portfolio </h1>
-                                    <img src="img/web/Port_img_04.jpg" alt="humanbeing">
+                                    <img src="img/codealone/portfolio.jpg" alt="humanbeing">
                                     <h2 class="animate-text">포트폴리오 웹</h2>
                                     
                                 <div class="dots">
@@ -99,10 +101,11 @@
                                     <span></span>
                                 </div>
                             </div>
+                                                                                
                         </div>
                     </a></li>
                     
-                    <li><a href="Sub_contents_Web2.html">
+                    <li><a href="enter_slider.html">
                         <div class="tile1"> 
                                 <div class="text">
                                    <img src="img/web/Port_img_06.jpg" alt="savebank">
@@ -117,13 +120,18 @@
                             </div>
                         </div>
                     </a></li>
+                    
+                    <li><a href="#">
+                        <div class="tile_athor1"></div>
+                        <!--background:none-->
+                    </a></li>
                 </ul>
                 
                 <!--2단-->
                 <ul id=container2>
-                   <li><a href="Sub_contents_Web1.html">
+                   <li><a href="blog_slider.html">
                         <div class="tile1"> 
-                        <img src="img/moblie_img.png">
+                        
                                 <div class="text">
                                     <h1>BLOG WEB</h1>
                                     <img src="img/web/Port_img_04.jpg" alt="humanbeing">
@@ -137,13 +145,13 @@
                             </div>
                         </div>
                     </a></li>
-                    <li><a href="#">
-                       <div class="tile"> 
+                    <li><a href="shopping_slider.html">
+                      <div class="tile1"> 
 
                                 <div class="text">
-                                   <img src="img/web/Port_img_11.jpg">
-                                    <h1>Moblie WebSite</h1>
-                                    <h2 class="animate-text">모바일 웹사이트</h2>
+                                   <img src="img/web/Port_img_10.jpg">
+                                    <h1>Shopping WebSite</h1>
+                                    <h2 class="animate-text">쇼핑몰 디자인</h2>
                                     
                                 <div class="dots">
                                     <span></span>
@@ -152,6 +160,7 @@
                                 </div>
                             </div>
                         </div>
+                        
                         <!--<div class="tile">
                             <img src="img/indesign/Port_img_07.jpg">
                                 <div class="text">
@@ -169,22 +178,18 @@
 
                     <!--blank-->
 
-                    <li><a href="#">
-                        <div class="tile_athor1"></div>
-                        <!--background:none-->
-                    </a></li>
+                    
 
 
                 </ul>
                 <!--3단-->
                 <ul id=container3>
                     <li><a href="#">
-                        <div class="tile1"> 
-
+                        <div class="tile"> 
                                 <div class="text">
-                                   <img src="img/web/Port_img_10.jpg">
-                                    <h1>Shopping WebSite</h1>
-                                    <h2 class="animate-text">쇼핑몰 디자인</h2>
+                                   <img src="img/web/Port_img_11.jpg">
+                                    <h1>Moblie WebSite</h1>
+                                    <h2 class="animate-text">모바일 웹사이트</h2>
                                     
                                 <div class="dots">
                                     <span></span>
@@ -209,7 +214,7 @@
                     </li><!--blank-->
 
 
-                    <li><a href="#">
+                    <li><a href="Sub_contents_lefleat.html">
                       <div class="tile">
 
                                 <div class="text">
@@ -455,6 +460,7 @@
                 
             </section>
         </div>
+
         <script>
                 var x = 800;
                 var slider = document.getElementById("slider");
