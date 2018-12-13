@@ -1,0 +1,219 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/sub_style2.css">
+        <script src="js/jquery.js"></script>
+           <script>
+            $(function() {
+            var before=null;
+            $(".mouseover_event>li>a").on(
+                "mouseover focus", function(){
+                    if(before){
+                        before.css("background","none");   
+                    } 
+                    $(this).css("background-color","pink");
+                    before = $(this);
+                });
+            
+            $(".mouseover_event>li>a").on(
+                "mouseout blur",function(){
+                if(before){
+                        before.css("background","none");   
+                    } 
+            });
+        });
+
+        /*
+        $(function() {
+            beforeMenu=null;
+            $("#side_navigator li").on("mouseover focus", function() {
+                if (beforeMenu) beforeMenu.css({
+                    background: "none"
+                });
+                $(this).css({
+                    "background-color": "#becbdb",
+                    
+                    });
+                beforeMenu = $(this);
+            });
+            $("#side_navigator li").on("mouseleave", function() {
+                
+                 beforeMenu.css({
+                    "background-color": "#f3f3f3"
+                });
+            });
+        });
+        */
+
+        </script>
+    </head>
+    <body>
+      <div id="wrap">
+       <!--네비게이션 WRAP-->
+            <header>
+               
+                <div id="nav_slider">
+                    <img src="img/sub_img/hansung_third_01.jpg" alt="홍보배너">
+                </div>
+                
+                <nav>
+                   <!--gray_nav-->
+                    <div class="top_line">
+                        <ul>
+                            <li><a href="#">원격</a></li>
+                            <li><a href="#">로그인</a></li>
+                            <li><a href="#">회원가입</a></li>
+                            <li><a href="#">Languege</a></li>
+                        </ul>
+                    </div>
+        
+                    <!--sub_page main_bar-->
+                    <div class="bottom_line">
+                       <img src="img/logo_1.png">
+                        <ul>
+                            <li><a href="#">대출상품</a></li>
+                            <li><a href="#">예금상품</a></li>
+                            <li><a href="#">전자서명</a></li>
+                            <li><a href="#">고객센터</a></li>
+                            <li><a href="#">은행소개</a></li>
+                            <li><a href="#">경영공시</a></li>
+                        </ul>
+                    </div>
+                    
+                </nav>
+            </header>
+
+        <!--메인 WRAP-->
+        <div id="main_wrap">
+           
+            <div id="side_navigator">
+                <div id="side_nav_img">
+                    <img src="img/images/sub_page_03.png" alt="Logo_img">
+                </div>
+                
+                <ul class="mouseover_event">
+                    <li><a href="#">업무안내</a></li>
+                    <li><a href="#">저축은행 찾기</a></li>
+                    <li><a href="#">저축은행 통계</a></li>
+                    <li><a href="#">경영공시</a></li>
+                    <li><a href="#">감사보고서</a></li>
+                    <li><a href="#">기타공시</a></li>
+                    <li><a href="#">소식</a></li>
+                </ul>
+                
+                <div class="submit_box">
+                   <div>
+                        <h4>상품안내 바로가기</h4>
+                        <p>상호저축은행의 상품들을<br> 확인해 보세요</p>
+                        
+                   </div>
+                    <div>
+                        <img src="img/images/sub_page_14.png" alt="pictogram">
+                    </div>
+                    <span>신청하기</span>
+                </div>
+                
+            </div>
+            
+            <section id="main_container">
+                <ul id="nav_item">
+                    <li><a><img src="img/images/sub_page_05.png" alt="홈버튼"></a></li>
+                    <li><a>한성저축은행</a></li>
+                    <li><a>저축은행 찾기</a></li><!--bold/color-->
+                </ul>
+                <div id="insert_desk">
+                    <h1>저축은행 찾기</h1>
+                    <hr>
+                </div>
+                <div id="desk">
+                    <h1>한성저축은행 지점 안내</h1>
+                    <p>
+                       한성저축은행은 충청북도 <span color="#1f8691">옥천군 본점</span>으로 부터 천안 아산점, 청주점, 대전탄방점,의 지점이 있으며<br>언제든지 준비된 마인드로 고객님을 맞을 준비를 하고 있습니다. 
+                    </p>
+                </div>
+                <div id="list_img">
+                   <!--지점리스트-->
+                    <div>
+                       <ul>
+                           <li>청주점</li>
+                           <li>천안아산점</li>
+                           <li>대전탄방점</li>
+                           <li>옥천본점</li>
+                       </ul>
+                   </div>
+                   <!--지점 이미지/주소-->
+                    <div class="bank_img">
+                        <div>
+                            <img src="img/bank_img/cheongjoo.jpg" alt="지점이미지">
+                        </div>
+                        <div>
+                            <h1>한성저축은행 청주점</h1>
+                            <p>주소 충청북도 청주시 상당구 북문로2가 상당로 143번길 3</p>
+                            <p>TEL 043-270-7000</p>
+                        </div>
+                    </div>
+                    <!--부수선택요소 약도-->
+                    <div class="map_list">
+                        <ul>
+                            <li><a href="#">지점약도</a></li>
+                            <li><a href="#">업무안내</a></li>
+                            <li><a href="#">지점공지</a></li>
+                            <li><a href="#">지점소식</a></li>
+                        </ul>
+                        <div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3201.4012248552217!2d127.48750575029548!3d36.640797184258844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356527b883acc99f%3A0x1f865eaeb7269f0b!2z7ZWc7ISx7KCA7LaV7J2A7ZaJ!5e0!3m2!1sko!2skr!4v1544651073645" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+        </div>
+          
+            <!--footer-->
+            <footer>
+        <!--개인정보취급방침-->
+                <div class="footer_left">
+                    <ul>
+                        <li><h4>개인정보취급방침</h4></li>
+                        <li>신용정보 활용제제의 공시</li>
+                        <li>신용정보제공에 대한 고객권리 안내문</li>
+                        <li>채권추심업무 처리절차</li>
+                        <li>불법채권추심 대응요청</li>
+                        <li></li>
+                    </ul>
+                <!--영업지점안내-->
+                    <table>
+                        <tr>
+                            <td><h3>영업지점안내</h3></td>
+                            <td>본   점 : 충북 옥천군 옥천읍 중앙로 32</td>
+                            <td>청 주 지 점 : 충북 청주시 상당로 143번길3</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>대전점 : 대전광역시 서구 탄방동 603</td>
+                            <td>천안아산점: 천안시 서북구 차돌들길 6-1번지5층(여신전문출장소)</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div id="footer_right">
+                    <ul>
+                        <li>전화번호 안내(본점) 043.730.0500</li>
+                        <li>콜센터 1544.2115</li>
+                        <li>콜센터 팩스 043.270.7002</li>
+                    </ul>
+                    <ul>
+                        <li>사업자등록번호 317-85-0794</li>
+                        <li>저축은행장 오종민</li>
+                        <li>이메일 hs@hansungbank.co.kr</li>
+                    </ul>
+                    <p>COPYRIGHT (C) 2011 HANSUNG BANK ALL RIGHTS RESERVED</p>
+                </div>
+            </footer>
+ 
+        </div>
+        
+    </body>
+</html>
