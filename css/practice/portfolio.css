@@ -6,8 +6,6 @@
     align-items: center;
     width:100%;
     height:100vh;
-   
-    
 }.ConName{
     text-align: center;
     width:30%;
@@ -21,16 +19,14 @@
 }.ConName img{
     width:20px;
     height:20px;
-}
-.main_contents1{
+}.main_contents1{
     display: flex;
     flex-flow :column nowrap;
     width:90%;
     height:90vh;
     justify-content: space-around;
     align-items:center;
-    opacity:0.9;
-    
+    opacity:0.9; 
 }.photo_section{
     display:flex;
     flex-flow: column nowrap;
@@ -53,8 +49,7 @@
     font-weight:600;
     padding-top:10px;
     border-radius: 10px;
-}
-.photo_section>ul li a{
+}.photo_section>ul li a{
     font-size: 12px;
     font-weight:600;
 /*slider_wrap*/
@@ -71,56 +66,45 @@
     position:absolute;
     width:800px;
     height:75vh
-}
-/*slider_wrap*/
+}/*slider_wrap*/
 .photo_block{
     display:flex;
     flex-flow:row nowrap;
     justify-content: space-around;
     align-items:center;
-    
     width:100%;
     height:70vh;
-}
-.photo_block1{
+}.photo_block1{
     display:flex;
     flex-flow:row nowrap;
     justify-content: space-around;
     align-items:center;
-    
     width:100%;
     height:70vh;
-}
-.block_left{
+}.block_left{
     width:25%;
     height:60vh;
-
 }.block_left img{
     width:100%;
     height:100%;
 }.block_left a{
     width:100%;
     height:100%;
-}
-.block_left:hover{
+}.block_left:hover{
     box-shadow: 0px 35px 37px -17px rgba(0,0,0,0.64);
     transform:scale(1.05);
     color:#585858;
-}
-.block_left1:hover{
+}.block_left1:hover{
     box-shadow: 0px 35px 37px -17px rgba(0,0,0,0.64);
     transform:scale(1.05);
     color:#585858;
-}
-
-.center_gruop{
+}.center_gruop{
     display:flex;
     flex-flow:column nowrap;
     justify-content: space-between;
     height:60vh;
     width:45%;
-}
-.center_first{
+}.center_first{
     height:30vh;
     width:100%;
     background-image: url("../../img/shoppingmall/%EC%87%BC%ED%95%91%EB%AA%B0.jpg");
@@ -131,28 +115,22 @@
 }.center_first:hover{
     box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
     transform:scale(1.05);
-    
-}
-.center_first1:hover{
+}.center_first1:hover{
     box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
     transform:scale(1.05);
-    
-}
-.center_second{
+}.center_second{
     display:flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     height: 25vh;
     width:100%;
-    
 }.center_second>div:hover{
     box-shadow: 0px 35px 47px -17px rgba(0,0,0,0.64);
     transform:scale(1.05);
 }.center_second1>div:hover{
     box-shadow: 0px 35px 47px -17px rgba(0,0,0,0.64);
     transform:scale(1.05);
-}
-.center_second div:first-child{
+}.center_second div:first-child{
     background-image: url("../../img/web/pic_1.jpg");
     background-size:cover;
     background-repeat: no-repeat;
@@ -163,8 +141,7 @@
     background-size:cover;
     background-position:center;
     width:48%;
-}
-.block_right{
+}.block_right{
     width:22%;
     height:60vh;
     display:flex;
@@ -177,8 +154,7 @@
 }.block_right1>div:hover{
     box-shadow: 0px 35px 47px -17px rgba(0,0,0,0.64);
     transform:scale(1.05);
-}
-.block_right div:first-child{
+}.block_right div:first-child{
     background-image:url("../../img/mobile/marketing.jpg");
     background-size:contain;
     width:100%;
@@ -190,9 +166,7 @@
     background-color:white;
     width:100%;
     height:25vh;
-}
-/*가변 블록*/
-
+}/*가변 블록*/
 .block_left1{
     width:25%;
     height:60vh;
@@ -201,7 +175,6 @@
     background-repeat: no-repeat;
     background-position: center;
 }.center_gruop1{
-    
     display:flex;
     flex-flow:column nowrap;
     justify-content: space-between;
@@ -214,14 +187,12 @@
     background-repeat: no-repeat;
     background-size:contain;
     background-position:center;
-    
 }.center_second1{
     display:flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     height: 25vh;
     width:100%;
-    
 }.center_second1 div:first-child{
     background-image: url("../../img/portfolio_2/leafleat.jpg");
     background-size:contain;
@@ -233,8 +204,7 @@
     background-size:cover;
     background-position:center;
     width:48%;
-}
-.block_right1{
+}.block_right1{
     width:22%;
     height:60vh;
     display:flex;
@@ -253,7 +223,6 @@
     background-image: url("../../img/portfolio_2/package.jpg");
     background-size:contain;
     background-position:center;
-    
     width:100%;
     height:25vh;
 }

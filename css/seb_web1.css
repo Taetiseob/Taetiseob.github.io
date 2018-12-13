@@ -52,9 +52,20 @@ body{
     display: flex;
     flex-flow:column nowrap;
     justify-content: space-around;
-    height:13vh;
+    height:16vh;
     margin:5px;
     font-size:14px;
+    font-weight:100;
+    
+}.ConName_index h3{
+    font-size:14px;
+    font-weight:600;
+}
+.ConName_index ul{
+    margin-top:20px;
+}
+.ConName_index li{
+    margin-top:10px;
 }
 /*main_photo*/
 .main_photo{
