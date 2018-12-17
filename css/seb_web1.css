@@ -111,4 +111,7 @@ body{
 }.bottom_btn img{
     width:50ppx;
     height:50px;
+}a{
+    text-decoration:none;
+    color:#fff;
 }

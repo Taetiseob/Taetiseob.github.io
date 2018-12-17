@@ -37,9 +37,9 @@
     height:250px;
 }.my_contents{
     border:1px solid #cecece;
-    width:58%;
-    min-width:320px;
-    padding:2% 2%;
+    width:100%;
+    
+    padding:10px;
     display:flex;
     flex-flow:column nowrap;
     justify-content: space-around;
@@ -51,24 +51,22 @@
 }
 .my_contents>p{
     font-size:0.5rem;
-    line-height: 1.9;
+    line-height: 1.6;
     min-width:320px;
 }.sinsang{
     height:10vh;
     display:flex;
     flex-flow : row nowrap;
-    width:75%;
-    min-width:35%;
+    width:100%;
+    
     justify-content: space-around;   
 }
 .first_li{
     border-bottom:1px solid #4c4c4c;
     font-weight:bold;
     
-}.sinsang ul{
-    width:31%;
 }.sinsang li{
-    margin:2px 0;
+    
     font-size:8px;
 }.Git_button{
     display: flex;
