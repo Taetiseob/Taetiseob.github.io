@@ -1,0 +1,55 @@
+
+<!doctype html>
+<html data-brackets-id='170'>
+    <head data-brackets-id='171'>
+       <meta data-brackets-id='172' charset="utf-8">
+       <style data-brackets-id='173'>
+        </style>
+       <script data-brackets-id='174' src="../jquery.js">
+           /*
+            $(function(){
+                $("#text1").on({
+                    "click":function(){
+                    $("#text2").next().addClass("yellow");
+                    }
+                })    
+            });
+           */
+       </script>
+    </head>
+    <body data-brackets-id='175'>
+        <script data-brackets-id='176'>
+            /*$(function(){
+                $("btn1").on("click",function(){
+                $(".txt1").toggleClass("change");
+            });
+            })
+            */
+            $(function(){
+                var value = false;
+                $(".btn1").on("click",function(){
+                    if(value){
+                        value=false;
+                        $(".txt1").css({"color":"red"});
+                    }
+                    else{
+                        value=true;
+                        $(".txt1").css({"color":"black"})
+                    }
+                });
+                
+                $(".btn2").on({"mouseover":function(){
+                                $(".txt2").css("color","green")},
+                              "mouseout":function(){
+                                $(".txt2").css("color","black")}
+                              });
+            })
+                
+                
+        </script>
+        <button data-brackets-id='177' class="btn1">버튼1</button>
+        <p data-brackets-id='178' class="txt1">내용1</p>
+        <button data-brackets-id='179' class="btn2">버튼2</button>
+        <p data-brackets-id='180' class="txt2" >내용2</p>
+    </body>
+</html>

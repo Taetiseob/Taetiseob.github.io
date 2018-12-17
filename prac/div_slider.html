@@ -1,0 +1,62 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Javascript Slide Example</title>
+<style type='text/css'>
+	#slidebox {
+		position:relative;
+		width:300px;
+		height:200px;
+		overflow:hidden;
+		white-space:nowrap;
+		border:1px solid #000;
+	}
+	#slidebox ul#slider {
+		list-style:none;
+		margin:0;
+		padding:0;
+	}
+	#slidebox ul li {
+		position:absolute;
+		width:300px;
+		height:300px;
+	}
+	#slidebox ul li img {
+		width:300px;
+		height:200px;
+	}
+</style>
+<body>
+	<div id="slidebox">
+		<ul id="slider">
+			<li>
+				<img src="http://dummyimage.com/300x200/ff00ff/ffffff.png&text=img 1" />
+			</li>
+			<li>
+				<img src="http://dummyimage.com/300x200/82e600/ff0000.png&text=img 2" />
+			</li>
+			<li>
+				<img src="http://dummyimage.com/300x200/009eb3/000000.png&text=img 3" />
+			</li>
+			<li>
+				<img src="http://dummyimage.com/300x200/d4bb00/0011ff.png&text=img 4" />
+			</li>
+			<li>
+				<img src="http://dummyimage.com/300x200/7a3f00/ffffff.png&text=img 5" />
+			</li>
+		</ul>
+	</div>
+	<script type='text/javascript'>
+		var x = 300;
+		var slider = document.getElementById("slider");
+		var slideArray = slider.getElementsByTagName("li");
+		var slideMax = slideArray.length - 1;
+		var curSlideNo = 0;
+		for (i = 0; i <= slideMax; i++) {
+			if (i == curSlideNo) slideArray[i].style.left = 0;
+			else slideArray[i].style.left = -x + "px";
+		}
+	</script>
+</body>
+</html>
